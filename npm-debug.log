@@ -31,12 +31,18 @@
 21 silly publish   description: 'Environment chooser',
 21 silly publish   main: 'parse-env.js',
 21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/dcoellarb/parse-env.git' },
 21 silly publish   author: { name: 'Daniel Coellar' },
 21 silly publish   license: 'ISC',
 21 silly publish   dependencies: { parse: '>= 1.6.0' },
+21 silly publish   gitHead: 'f10598e5c5e7347692426f65f662593fb6fef55a',
+21 silly publish   bugs: { url: 'https://github.com/dcoellarb/parse-env/issues' },
 21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   homepage: 'https://github.com/dcoellarb/parse-env#readme',
 21 silly publish   _id: 'parse-env@1.0.0',
-21 silly publish   _shasum: 'ccd2bf8df34ede0b8c144e35df8221357c712c24',
+21 silly publish   _shasum: 'fe63387f17d7893864db5b1af526ea751ab7fc6e',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name parse-env
@@ -54,22 +60,22 @@
 29 silly publish uploading /Users/dcoellar/.npm/parse-env/1.0.0/package.tgz
 30 verbose request uri https://registry.npmjs.org/parse-env
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 11:23:14 AM
+32 info attempt registry request try #1 at 11:30:25 AM
 33 verbose request using bearer token for auth
-34 verbose request id 12e085afa034c4ed
+34 verbose request id 2773b32f45b56229
 35 http request PUT https://registry.npmjs.org/parse-env
 36 http 403 https://registry.npmjs.org/parse-env
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
 37 verbose headers   'content-length': '103',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Tue, 09 Aug 2016 16:19:26 GMT',
+37 verbose headers   date: 'Tue, 09 Aug 2016 16:26:37 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
 37 verbose headers   'x-served-by': 'cache-mia1322-MIA',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1470759566.033710,VS0,VE648',
+37 verbose headers   'x-timer': 'S1470759996.850179,VS0,VE367',
 37 verbose headers   vary: 'Accept-Encoding' }
 38 verbose request invalidating /Users/dcoellar/.npm/registry.npmjs.org/parse-env on PUT
 39 error publish Failed PUT 403
