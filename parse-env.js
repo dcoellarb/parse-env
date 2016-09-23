@@ -1,4 +1,4 @@
-module exports = function(env) {
+module.exports = function(env) {
 	switch(env) {
 		case 'browser':
 			return require('parse');
