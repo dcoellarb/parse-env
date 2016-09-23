@@ -1,5 +1,12 @@
-if (typeof window === 'undefined') {
-  module.exports = require('parse/node');
-} else {
-  module.exports = require('parse');
+module exports = function(env) {
+	switch(env) {
+		case 'browser':
+			return require('parse');
+		case 'node':
+			return require('parse/node');
+		case 'react-native':
+			return require('parse/react-native');
+		default:
+			return require('parse');		
+	}
 }

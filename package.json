@@ -1,6 +1,6 @@
 {
   "name": "parse-env-chooser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Environment chooser",
   "main": "parse-env.js",
   "scripts": {
