@@ -1,6 +1,6 @@
 {
   "name": "parse-env-chooser",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Environment chooser",
   "main": "parse-env.js",
   "scripts": {
@@ -13,6 +13,6 @@
   "author": "Daniel Coellar",
   "license": "ISC",
   "dependencies": {
-    "parse": ">= 1.6.0"
+    "parse": "^1.9.1"
   }
 }
